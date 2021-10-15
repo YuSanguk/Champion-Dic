@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import { Helmet } from "react-helmet";
-import { get_champion } from "./champions";
+import { Get_champion } from "./champions";
 import Li from "./Li";
 import "./style.css";
 
 const App = () => {
-  const a = get_champion();
+  const [a, SetA] = useState([]);
+  if (a === []) SetA(Get_champion);
   const [target, SetTarget] = useState("");
   const [data, SetData] = useState([]);
 
@@ -19,7 +20,6 @@ const App = () => {
         List.push([a[i][0], a[i][1]]);
       }
     }
-    console.log(List);
     SetData(List);
   };
 
@@ -42,6 +42,7 @@ const App = () => {
         <p>
           영어로 검색할시, 대소문자 유의해주세요 (대소문자 자동 구분 없어요))
         </p>
+        <p>초성만 적는 것으론 검색이 되지않으니 유의해주세요</p>
         <div className="Input_Container">
           <input className="input" placeholder="챔피언 이름 입력" />
           <button onClick={search}>검색!</button>
