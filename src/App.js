@@ -15,7 +15,10 @@ const App = () => {
 
     let List = [];
     for (var i = 0; i < a.length; i++) {
-      if (a[i][1].id.includes(target) || a[i][1].name.includes(target)) {
+      if (
+        a[i][1].id.toUpperCase().includes(target.toUpperCase()) ||
+        a[i][1].name.includes(target)
+      ) {
         List.push([a[i][1].id, a[i][1].name]);
       }
     }
