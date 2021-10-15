@@ -1,12 +1,11 @@
 import React, { useState } from "react";
 import { Helmet } from "react-helmet";
-import { Get_champion } from "./champions";
 import Li from "./Li";
 import "./style.css";
+import dataF from "./champion.json";
 
 const App = () => {
-  const [a, SetA] = useState([]);
-  if (a === []) SetA(Get_champion);
+  const [a, SetA] = useState(Object.entries(dataF.data));
   const [target, SetTarget] = useState("");
   const [data, SetData] = useState([]);
 
@@ -16,8 +15,8 @@ const App = () => {
 
     let List = [];
     for (var i = 0; i < a.length; i++) {
-      if (a[i][0].includes(target) || a[i][1].includes(target)) {
-        List.push([a[i][0], a[i][1]]);
+      if (a[i][1].id.includes(target) || a[i][1].name.includes(target)) {
+        List.push([a[i][1].id, a[i][1].name]);
       }
     }
     SetData(List);
@@ -36,7 +35,7 @@ const App = () => {
       <div className="Container">
         <h1>롤 챔피언 사전</h1>
         <p>
-          결과가 바뀌지 않거나 모든 챔피언이 목록에 나올 경우, 버튼을 1,2번 다시
+          결과가 나오지 않거나 전체 목록이 나올 경우, 버튼을 1,2번 다시
           눌러주세요
         </p>
         <p>
