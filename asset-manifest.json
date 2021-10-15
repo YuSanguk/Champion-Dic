@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Champion-Dic/static/css/main.c120fb25.chunk.css",
-    "main.js": "/Champion-Dic/static/js/main.3697084b.chunk.js",
-    "main.js.map": "/Champion-Dic/static/js/main.3697084b.chunk.js.map",
+    "main.css": "/Champion-Dic/static/css/main.54cf0c3e.chunk.css",
+    "main.js": "/Champion-Dic/static/js/main.717bf670.chunk.js",
+    "main.js.map": "/Champion-Dic/static/js/main.717bf670.chunk.js.map",
     "runtime-main.js": "/Champion-Dic/static/js/runtime-main.07d9a76c.js",
     "runtime-main.js.map": "/Champion-Dic/static/js/runtime-main.07d9a76c.js.map",
-    "static/js/2.cc96679b.chunk.js": "/Champion-Dic/static/js/2.cc96679b.chunk.js",
-    "static/js/2.cc96679b.chunk.js.map": "/Champion-Dic/static/js/2.cc96679b.chunk.js.map",
+    "static/js/2.18da484c.chunk.js": "/Champion-Dic/static/js/2.18da484c.chunk.js",
+    "static/js/2.18da484c.chunk.js.map": "/Champion-Dic/static/js/2.18da484c.chunk.js.map",
     "index.html": "/Champion-Dic/index.html",
-    "static/css/main.c120fb25.chunk.css.map": "/Champion-Dic/static/css/main.c120fb25.chunk.css.map",
-    "static/js/2.cc96679b.chunk.js.LICENSE.txt": "/Champion-Dic/static/js/2.cc96679b.chunk.js.LICENSE.txt"
+    "static/css/main.54cf0c3e.chunk.css.map": "/Champion-Dic/static/css/main.54cf0c3e.chunk.css.map",
+    "static/js/2.18da484c.chunk.js.LICENSE.txt": "/Champion-Dic/static/js/2.18da484c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.07d9a76c.js",
-    "static/js/2.cc96679b.chunk.js",
-    "static/css/main.c120fb25.chunk.css",
-    "static/js/main.3697084b.chunk.js"
+    "static/js/2.18da484c.chunk.js",
+    "static/css/main.54cf0c3e.chunk.css",
+    "static/js/main.717bf670.chunk.js"
   ]
 }
