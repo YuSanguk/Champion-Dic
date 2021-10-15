@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Champion-Dic/static/css/main.7020901a.chunk.css",
+    "main.js": "/Champion-Dic/static/js/main.dfddffc2.chunk.js",
+    "main.js.map": "/Champion-Dic/static/js/main.dfddffc2.chunk.js.map",
+    "runtime-main.js": "/Champion-Dic/static/js/runtime-main.07d9a76c.js",
+    "runtime-main.js.map": "/Champion-Dic/static/js/runtime-main.07d9a76c.js.map",
+    "static/js/2.07cf9c34.chunk.js": "/Champion-Dic/static/js/2.07cf9c34.chunk.js",
+    "static/js/2.07cf9c34.chunk.js.map": "/Champion-Dic/static/js/2.07cf9c34.chunk.js.map",
+    "index.html": "/Champion-Dic/index.html",
+    "static/css/main.7020901a.chunk.css.map": "/Champion-Dic/static/css/main.7020901a.chunk.css.map",
+    "static/js/2.07cf9c34.chunk.js.LICENSE.txt": "/Champion-Dic/static/js/2.07cf9c34.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.07d9a76c.js",
+    "static/js/2.07cf9c34.chunk.js",
+    "static/css/main.7020901a.chunk.css",
+    "static/js/main.dfddffc2.chunk.js"
+  ]
+}
