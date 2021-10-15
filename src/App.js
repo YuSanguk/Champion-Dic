@@ -9,7 +9,7 @@ const App = () => {
   const [target, SetTarget] = useState("");
   const [data, SetData] = useState([]);
 
-  const search = () => {
+  const search = async () => {
     const box = document.querySelector(".input");
     SetTarget(box.value);
 
@@ -23,10 +23,14 @@ const App = () => {
       }
     }
     SetData(List);
+    console.log(target);
   };
 
   const empty = () => {
     SetData([]);
+    const box = document.querySelector(".input");
+    box.value = "";
+    SetTarget(box.value);
   };
 
   return (
@@ -40,9 +44,6 @@ const App = () => {
         <p>
           결과가 나오지 않거나 전체 목록이 나올 경우, 버튼을 1,2번 다시
           눌러주세요
-        </p>
-        <p>
-          영어로 검색할시, 대소문자 유의해주세요 (대소문자 자동 구분 없어요))
         </p>
         <p>초성만 적는 것으론 검색이 되지않으니 유의해주세요</p>
         <div className="Input_Container">
